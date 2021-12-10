@@ -1,0 +1,17 @@
+html{background-color:#3d5457;}
+body{margin:0px; padding:0px;}
+.inp{background-color: white;padding: 9px;color: #595775;padding-right:80px;font-size: 15;}
+#sregcontent{margin-left: 300px;margin-top: 0px;margin-bottom: 150px;}
+table{background-color:#49676b;padding: 10px;border-radius: 6px 6px 6px 6px;
+margin-top: -20px;text-align: center;color: #dde6f4;margin-left:0px;}
+.sub{padding: 5px;padding-right: 20px;padding-left: 20px;color:#595775;background: transparent;width:150px;margin-left: 30px;border: 0px solid;color: #c9c6ed;font-size: 20px;}
+.sub:hover{background-color:#3d5457;width: 200px;padding-right: 60px;transition-duration:2s;padding-left: 60px;}
+button{color:red;font-size:20px; border-radius:20px 20px 20px 20px; background-color: #595775;font-style: bold; margin-left: 80px;}
+
+ul{
+	padding:20px;
+	list-style: none;
+}
+table ul{
+	background-color: 
+}

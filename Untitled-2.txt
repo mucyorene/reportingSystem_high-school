@@ -1,0 +1,59 @@
+function validateTeacher(){
+        if (document.forms.fname.value == "") {
+            document.forms.fname.focus();
+            document.getElementById("fnameMsg").innerHTML = "First Name is required";
+            return false;
+        }else{
+            document.getElementById("fnameMsg").innerHTML = "";
+        }
+        if (document.forms.lname.value == "") {
+            document.forms.lname.focus();
+            document.getElementById("lnameMsg").innerHTML = "Fill out last name";
+            return false;
+        }else{
+            document.getElementById("lnameMsg").innerHTML = "";
+        }
+        if (document.forms.idNumber.value == "") {
+            document.forms.idNumber.focus();
+            document.getElementById("idNumberMsg").innerHTML = "Fill out your Id Number";
+            return false;
+        }else{
+            document.getElementById("idNumberMsg").innerHTML = "";
+        }
+        if (document.forms.address.value == "") {
+            document.forms.address.focus();
+            document.getElementById("addressMsg").innerHTML = "Fill out addresses";
+            return false;
+        }else{
+            document.getElementById("addressMsg").innerHTML = "";
+        }
+        if (document.forms.phoneNumber.value == "") {
+            document.forms.phoneNumber.focus();
+            document.getElementById("phoneNumberMsg").innerHTML = "Fill out phone number";
+            return false;
+        }else{
+            document.getElementById("phoneNumberMsg").innerHTML = "";
+        }
+        if (document.forms.status.value == "") {
+            document.forms.status.focus();
+            document.getElementById("statusMsg").innerHTML = "Fill out status";
+            return false;
+        }else{
+            document.getElementById("statusMsg").innerHTML = "";
+        }
+        if (document.forms.qualify.value == "") {
+            document.forms.qualify.focus();
+            document.getElementById("qualifyMsg").innerHTML = "Select qualification";
+            return false;
+        }else{
+            document.getElementById("qualifyMsg").innerHTML = "";
+        }
+        if (document.forms.email.value == "") {
+            document.forms.email.focus();
+            document.getElementById("emailMsg").innerHTML = "Select qualification";
+            return false;
+        }else{
+            document.getElementById("emailMsg").innerHTML = "";
+        }
+        return true;
+    }

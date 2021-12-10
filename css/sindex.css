@@ -1,0 +1,30 @@
+html{background-color:grey;}
+body{background-color: white;width: 1200px;margin-left: 6%;height: 600px;border-radius: 10px 10px 0px 0px;}
+
+/*#blankspace{background-color:#49676b;height: 530px;width:1000px;margin-left: 285px;margin-top: -547px;position: fixed;z-index: 1px;overflow-y: scroll;}*/
+.linkspace{margin-left: 40px;}
+
+.inp{
+	height: 25px;
+	padding: 15px;
+	color: none;
+	padding:4px;padding-left:1%;
+	font-size: 15px;border-radius: 3px 3px 3px 3px;border:1px solid black;
+
+}
+.df{font-size:60px;font-style:bold;color:none;
+	font-family:segeo UI;text-align:center}
+.inp:hover{background-color:#dde6f4;transition-delay:2px;transition-duration:2s;}
+#sregcontent{margin-left: 300px;margin-top: 0px;margin-bottom: 150px;}
+/*table{font-size:18px;color:#dde6f4;background-color:#49676b;padding:2%;padding-right:6%;border-radius: 6px 6px 6px 6px;margin-top: 0px;}*/
+.sub{padding: 5px;padding-right: 20px;padding-left: 20px;color:#595775;background:none;transarent;width:150px;margin-left: 30px;border: 0px solid;color: #c9c6ed;font-size: 20px;}
+.sub:hover{background-color:#3d5457;opacity:.5;width: 70%;padding-right: 60px;transition-duration:2s;padding-left: 60px;}
+button{color:black; font-size:20px; border-radius:20px 20px 20px 20px; background-color: #595775;font-style: bold;}
+#cen{margin-left: 50%;width: 40%;
+	height:300px;}
+.go{margin-top:-5%;font-size: 20px;}
+.go input{border:;}
+.but{
+	background-color: white;padding:2%;padding-right:25%; padding-left: 25%;
+	font-size:20px;font-style: bold;
+}

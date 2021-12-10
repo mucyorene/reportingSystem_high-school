@@ -1,0 +1,96 @@
+
+html{background-color:#3d5457;}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+	font-family: times new romans;
+}
+#banner{
+	height: 150px;
+	width: 835px;
+	background-image: url(images/bann.png);
+	text-align: center;
+	margin-left: 265px;
+	margin-right: 1px;
+	margin-top: 0px;
+}
+.action ul li{
+	border-bottom: 1px solid #3d5457;
+    padding: 40px;
+	height: 70px;
+	width: 270px;
+	background-color:#49676b;
+	list-style: none;
+	color: #dde6f4;
+	font-size: 25px;
+}
+.action ul li:hover{
+background-color: #3d5457;
+transparent:0.5px;
+transition-duration:2s;
+}
+.action ul li a{
+color: #dde6f4;
+text-decoration: none;
+font-weight: bold;
+font-size: 25px;
+
+}
+#indcontent{
+	margin-top: 5px;
+	margin-left: 40px;
+	margin-right: 5px;
+	height: 650px;
+	width: 1285px;
+	padding-left: -50px;
+}
+#blankspace{
+	height: 603px;
+	width: 900px;
+	margin-left: 394px;
+	margin-right: 10px;
+	margin-top: -620px;
+	margin-bottom: 1000px;
+	background-color:#49676b;
+	color: #dde6f4;
+}
+#adcss{
+	width: 65px;
+  transform-origin: 90% 20%;
+  transform: skewY(-9deg);
+  height: 65px;
+  float: right;
+  border-radius: 60px;
+  margin-left: 15px;
+  margin-top: -60px;
+  margin-right: 70px;
+}
+
+#logoutico ul li{
+list-style: none;
+}
+#menu{
+	background-color: #7e7c99;;
+	text-align: center;
+	height: 80px;
+	width: 50px;
+	border:0px #595775;
+	display: block;
+	line-height: 20px;
+	margin-left: 1213px;
+	margin-top: 5px;
+	padding-right: 40px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	border-radius: 3px 3px 3px 3px;
+	border-bottom: 1px;
+}
+#logoutico ul li #menu:hover{
+background: #595775;
+transition-duration:2s;
+}
+#logoutico {
+	color:#dde6f4;
+	text-decoration: none;
+}

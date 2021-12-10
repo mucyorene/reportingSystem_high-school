@@ -1,0 +1,12 @@
+html{background-color:#3d5457;}
+#banner{height: 150px;width: 500px;text-align: center;margin-left: 265px;margin-right: 1px;margin-top: 0px;}
+.action ul li{color: #dde6f4;background-color:#49676b;border-bottom: 1px solid #3d5457;padding: 25px;height: 10px;width: 150px;list-style: none;margin-top: 0px;margin-left: 45px; }
+.action ul li:hover{background-color: #3d5457;transparent:0.5px;color:  #83b0d2;transition-duration:2s;}
+.action ul li a{color: #dde6f4;text-decoration: none;font-weight: bold;font-size: 20px;margin-left: 2px;}
+#blankspace{height: 390px;background-color:#49676b;font-family: Arial,Helvetica,sans-serif;width: 90%;
+margin-left: 2.95%;overflow-y:scroll;margin-top:-1.5%;color: #dde6f4;
+}
+
+.linkspace{margin-left: 40px;}
+table{margin-top: -502px;margin-left:-2px;width: 1000px;height: 490px;color: #dde6f4;}
+#indcontent{margin-top:100px;}

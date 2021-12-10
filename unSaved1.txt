@@ -1,0 +1,14 @@
+
+            <div class="card-body">
+                @include('include.messages')
+                <div>
+                    <form method="POST" action="/uploadExcel/uploadExcelFile" class="form" enctype="multipart/form-data">
+                        {{ csrf_field() }}
+                        <div class="form-group">
+                        <label for="excel" class="form-control-label">Upload excel file </label>
+                        <input type="file" name="studentExcel">
+                        <button class="btn btn-primary btn-sm" type="submit">Upload file</button>
+                        </div>
+                    </form>
+                </div>
+            </div>

@@ -1,0 +1,22 @@
+html{background-color:#3d5457;}
+#banner{height: 150px;width: 500px;text-align: center;margin-left: 265px;margin-right: 1px;margin-top: 0px;}
+.action ul li{color: #dde6f4;background-color:#49676b;border-bottom: 1px solid #3d5457;padding: 24px;height: 10px;width: 150px;list-style: none;margin-top: 0px;margin-left: 45px; }
+.action ul li:hover{background-color: #3d5457;transparent:0.5px;color:  #83b0d2;transition-duration:2s;}
+.action ul li a{color: #dde6f4;text-decoration: none;font-weight: bold;font-size: 20px;margin-left: 2px;}
+/*#blankspace{background-color:#49676b;height: 530px;width:1000px;margin-left: 285px;margin-top: -547px;position: fixed;z-index: 1px;overflow-y: scroll;}*/
+.linkspace{margin-left: 40px;}
+#blankspace{height: 50%;background-color:#49676b;width:100%;
+}
+.inp{
+	height: 25px;
+	padding: 15px;
+	color: #595775;
+	padding:4px;padding-left:0.5%;
+	font-size: 15px;border-radius: 3px 3px 3px 3px;border:0.5px groove #3d5457;
+}
+.inp:hover{background-color:#dde6f4;transition-delay:2px;transition-duration:2s;}
+#sregcontent{margin-left: 300px;margin-top: 0px;margin-bottom: 150px;}
+/*table{font-size:18px;color:#dde6f4;background-color:#49676b;padding:2%;padding-right:6%;border-radius: 6px 6px 6px 6px;margin-top: 0px;}*/
+.sub{padding: 5px;padding-right: 20px;padding-left: 20px;color:#595775;background:none;transarent;width:150px;margin-left: 30px;border: 0px solid;color: #c9c6ed;font-size: 20px;}
+.sub:hover{background-color:#3d5457;opacity:.5;width: 70%;padding-right: 60px;transition-duration:2s;padding-left: 60px;}
+button{color:red; font-size:20px; border-radius:20px 20px 20px 20px; background-color: #595775;font-style: bold;}

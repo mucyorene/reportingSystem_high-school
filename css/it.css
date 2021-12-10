@@ -1,0 +1,105 @@
+html{background-color:#3d5457;}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+}
+#banner{
+	height: 150px;
+	width: 835px;
+	background-image: url(images/bann.png);
+	text-align: center;
+	margin-left: 265px;
+	margin-right: 1px;
+	margin-top: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.action ul li{
+	font-family: times new roman;
+	border-bottom: 1px solid #3d5457;
+	padding:20px;
+	padding-left: 60px;
+	height: 70px;
+	width: 270px;
+	background-color:#49676b;
+	list-style: none;
+	text-align: center;
+}
+.action ul li:hover{
+background-color: #3d5457;
+transparent:0.5px;
+transition-duration:2s;
+}
+.action ul li a{
+color: #dde6f4;
+text-decoration: none;
+font-weight: bold;
+font-size: 25px;
+
+}
+#indcontent{
+	margin-top: 5px;
+	margin-left: 40px;
+	margin-right: 5px;
+	height: 650px;
+	width: 1285px;
+	padding-left: -50px;
+}
+#blankspace{
+	height: 449px;
+	width: 725px;
+	margin-left: 375px;
+	margin-right: 10px;
+	margin-top: -450px;
+	margin-bottom: 1000px;
+background-color: #49676b;
+}
+.linkspace{
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-right: 10px;
+}
+#adcss{
+	width: 65px;
+  transform-origin: 90% 20%;
+  transform: skewY(-9deg);
+  height: 65px;
+  float: right;
+  border-radius: 60px;
+  margin-left: 15px;
+  margin-top: -60px;
+  margin-right: 70px;
+}
+}
+#menu{
+	background-color: #7e7c99;;
+	text-align: center;
+	height: 80px;
+	width: 50px;
+	border:0px #595775;
+	display: block;
+	line-height: 20px;
+	margin-left: 1213px;
+	margin-top: 5px;
+	padding-right: 40px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	border-radius: 3px 3px 3px 3px;
+	border-bottom: 1px;
+}
+#logoutico ul li #menu:hover{
+background: #595775;
+transition-duration:2s;
+}
+#logoutico {
+	color:#dde6f4;
+	text-decoration: none;
+}
+table{background-color:#49676b;padding: 10px;padding-right: 70px;border-radius: 6px 6px 6px 6px;
+margin-top: 0px;text-align: center;}
+.sub{padding: 5px;padding-right: 20px;padding-left: 20px;color:#595775;background: transparent;width:150px;margin-left: 30px;border: 0px solid;color: #c9c6ed;font-size: 20px;}
+.sub:hover{background-color:#3d5457;width: 200px;padding-right: 60px;transition-duration:2s;padding-left: 60px;}
+button{color:red;font-size:20px; border-radius:20px 20px 20px 20px; background-color: #595775;font-style: bold; margin-left: 80px;}
